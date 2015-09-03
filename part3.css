@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+.sixth nav ul
+{padding-left: 0;}
+
+.sixth nav ul li{
+	 display: inline-block;
+	 width:192px;
+	
+}
+
+nav ul li a:hover{
+	color: red;
+	background-color: salmon;
+	
+
+}
+.sixth {
+	
+	max-width: 960px;
+	height: 75px;
+	background-color: white;
+}
+
+
+nav ul li a{
+	
+	width: 100%;
+	background-color: orange;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	line-height: 75px;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+.bigimage {
+	text-align: center;
+	max-width: 960px;
+}
+
+.bigimage2 {
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	
+}
+
+.smallimage {
+	text-align: center;
+	max-width: 960px;
+	height: 200px;
+}
+
+.smallimage2 {
+	height: 100%;
+	width: 240px;
+	margin: auto;
+	display: inline-block;
+	
+}
+
+@media (max-width:990px){
+
+* {
+	padding: 10px;
+}
+.smallimage {
+	
+	width: auto;
+	height: auto;
+	text-align: none;
+}
+	.smallimage2 {
+		width: 400px;
+		display: block;
+		
+	}
+	.sixth nav ul li{
+	 display: block;
+	 width:192px;
+	 height: 100px;
+	
+}
+
+.sixth {
+	
+	max-width: 192px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+
+}
